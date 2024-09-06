@@ -12,8 +12,13 @@
 .btn {
   margin-right: 600px;
   -webkit-text-stroke: 1px;
-  border-style: 2px solid;
-  border-color: rgb(0, 0, 0);
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid rgb(0, 0, 0) !important;
+  text-decoration: none ;
+  background-color: #f0f0f0 ;
+  color: rgb(0, 0, 0) ;
+  margin: 10px ;  
 }
 
 .p {
@@ -23,6 +28,7 @@
   text-align: center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   -webkit-text-stroke: 1px;
+  font-size: 20px;
 }
 
 .p2 {
@@ -33,6 +39,7 @@
   color:blue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   -webkit-text-stroke: 1px;
+  font-size: 20px;
 }
 
 .p3 {
@@ -43,6 +50,7 @@
   color: red;
   font-family:'Times New Roman', Times, serif;
   -webkit-text-stroke: 1px;
+  font-size: 20px;
 }
 
 .p4 {
